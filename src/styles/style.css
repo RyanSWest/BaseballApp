@@ -1,0 +1,24 @@
+.e-calendar {
+    background-color: rgb(120, 163, 233);
+    border: 3px solid blue;
+    color:whitesmoke;
+    padding:3%;
+    border-style: groove;
+    border-radius: 5%;
+}
+
+
+.e-calendar button{
+    background-color: rgb(48, 48, 177);
+    color: rgb(225, 225, 225);
+    border-style: groove;
+    border-radius: 10%;
+     
+    
+     
+
+}
+.e-calendar button:hover{
+  background-color: rgb(136, 136, 207);
+  color: rgb(48, 48, 177);
+}

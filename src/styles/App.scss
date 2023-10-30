@@ -1,0 +1,215 @@
+$primary: #204ecf;
+$secondary: #262d3d;
+
+@import '~bootstrap/scss/bootstrap';
+
+// @import url('https://fonts.google.com/specimen/Abyssinica+SIL?sort=alpha');
+ .game-container{
+   display: flex;
+   justify-content: center;
+ }
+ .game-card{
+
+   display: flex;
+   flex-direction: column;
+   width:25rem;
+   border:2px solid;
+   margin-top:2rem;
+ }
+ .game-1{
+
+   width:26rem;
+ }
+ .go-to-game{
+   display:flex;
+   justify-content:space-evenly;
+ }
+ 
+ .go-to-game:hover{
+
+   background-color: $primary;
+   color:white;
+ }
+ .pitchers{
+   display: flex;
+   justify-content: space-evenly;
+ }
+ .score{
+
+   display: flex;
+   justify-content: space-between;
+   border: 2px solid;
+   height:9rem;
+ }
+    
+.score-num{
+   margin-top:2rem;
+   margin-right:1rem;
+   font-weight: bolder;
+   height:8rem;
+   width:8rem;
+}
+
+.player:hover{
+   background-color: $primary;
+}
+.sticky{
+   z-index:2
+}
+   #dropdown-basic{
+      background-color: #e6e6e6;
+      height: 100%;
+      margin-left: 1rem;
+      border:1px solid blue;
+      // margin-bottom: 3rem;
+       border-radius: 10%;
+   }
+   .small{
+      height: 4rem;
+      width:4rem;
+   }
+   .medium{
+      height:8rem;
+      width:8rem;
+      left:1rem;
+   }
+   .header{
+      width:100%;
+      display: flex;
+      flex-direction: row;
+      // justify-content: left;
+      background-color: $primary;
+      padding:2rem;
+      margin-bottom: 1rem;
+   }
+   .game{
+      display: 'flex';
+      flex-direction: 'row';
+      justify-content: space-evenly;
+      margin-top: '1rem';
+      margin-bottom: '1rem';
+      border: '2px solid: blue';
+      background-color:lightgray;
+      width:fit-content;
+   }
+
+   .game-header{
+
+      display:'flex';
+      flex-direction: row;
+      justify-content: space-evenly;
+   }
+
+   .blurb{
+      padding:1rem;
+      display: flex;
+      justify-content: flex-start;
+     
+   }
+   .body{
+      padding: 1rem;
+      width:90%;
+   }
+
+   .e-calendar {
+      // background-color: rgb(120, 163, 233);
+      background-color: darkblue;
+      border: 3px solid blue;
+      color:whitesmoke;
+      padding:3%;
+      border-style: groove;
+      border-radius: 5%;
+  }
+
+  .video{
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+  }
+
+  .all-time-link{
+  font-size: larger;
+  }
+  
+   .year-select{
+      margin-bottom: 1rem;
+      border-bottom: .25rem groove;
+      display: flex;
+   }
+   .c-img {
+      height: 25rem;
+      width:100%;
+      object-fit: cover;
+   
+  }
+  .highlight{
+
+   height: fit-content;
+   width:22rem;
+  }
+  .highlight-card{
+   margin-top: 1rem;
+   justify-content: center;
+   border:.5rem solid;
+   width:25rem;
+  }
+
+  .player-card-name{
+   margin-right: 1.5rem;
+   font-weight: bolder;
+  }
+  
+  .e-calendar button{
+      background-color: $primary;
+      color: rgb(225, 225, 225);
+      border-style: groove;
+      border-radius: 10%;
+       
+      
+       
+  
+  }
+  .e-calendar button:hover{
+    background-color: rgb(136, 136, 207);
+    color: rgb(48, 48, 177);
+  }
+
+  .roster-name{
+   margin-left:.5rem;
+   margin-right:.5rem
+    }
+    .Roster{
+      display: flex;
+      flex-direction:column;
+    }
+    .roster-item{
+      display: flex;
+      flex-direction: row;
+    }
+     
+// :root {
+//   --bs-body-font-family: 'Abyssinica SIL' 
+// }
+// .element{
+//   @include background-image("./field.jpeg", rgba(0, 128, 128, 0.7) rgba(255, 192, 203, 0.8), right);
+// }
+// .App{
+  
+//     @include background-image('../styles/field.jpeg');
+   
+
+// } 
+ .Sport {
+  // --bs-body-font-family: 'AlfaSlabOne-Regular'
+  // --bs-body-font-family: 'Abyssinica SIL' 
+     color: 'white';
+      
+  background-color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+ 
+ 
+ 
+
+ 

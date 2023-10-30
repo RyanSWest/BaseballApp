@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.rosterName{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+    width:max-content;
+    padding:10px;
+}
+
+.rosterItem {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid maroon;
+}
+
+.info{
+    display:flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    height: 30%
+    
+ }
+.logo{
+    height: 150px;
+    width: 150px;
+
+}
+
+h4{
+    padding-right: 30px;
+}
+
+ 

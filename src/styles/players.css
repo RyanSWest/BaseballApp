@@ -1,0 +1,52 @@
+.player{
+    border: 4px solid rgb(112, 112, 151);
+    background-color: lightgray;
+  }
+  .card{
+    border: 4px solid rgb(81, 81, 168);
+    background-color: lightgray;
+    
+    
+  }
+
+
+ .all_time_info{
+   display: flex;
+   flex-direction: column;
+   border:2px solid rgb(104, 104, 165);
+   /* padding: 15px; */
+   height: 200px;
+ }
+  .all_time_pic{
+    height: 200px;
+    width:200px;
+    border-radius: 25px;
+  }
+  .all_time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+
+  }
+  .link_div{
+    padding: 25px;
+    width: 35%;
+  }
+  
+  .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .rank{
+    background-color: rgb(69, 112, 186);
+    color:whitesmoke;
+    padding:15px;
+    width:35%;
+    border-radius: 40px;
+    /* display: flex;
+    flex-direction: column; */
+    justify-content:space-evenly;
+
+  }
