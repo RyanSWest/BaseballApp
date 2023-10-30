@@ -42,7 +42,12 @@ const eraUrl =`https://bdfed.stitch.mlbinfra.com/bdfed/stats/player?stitch_env=p
   
   return (
      <Container> 
-      <header className = 'header'>
+      <header className = 'header'
+      style ={{backgroundImage: "url(https://png.pngtree.com/background/20230522/original/pngtree-baseball-field-in-a-3d-animated-video-picture-image_2693316.jpg)"}}
+
+      
+      
+      >
         <Badge className = 'Sport'  >
         <h1  class = 'fw-bolder'>Top Players</h1>
         <h2 class ='fw-bolder'>{year}</h2>
