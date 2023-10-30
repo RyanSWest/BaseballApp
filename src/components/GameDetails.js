@@ -70,7 +70,7 @@ const GameDetails = () => {
 
 
   return (
-    <Container>
+    <Container fluid>
       <Card class="d-flex align-items-center">
         <Card.Header>
           <Card.Title class="d-flex justify-content-center">
@@ -89,8 +89,16 @@ const GameDetails = () => {
           <p className = 'blurb'>{data.blurb}...</p>
         </Card.Body>
       </Card>
-      <div className="video">
-        <ReactPlayer url={video} controls={true} width="800px" height="450px" />
+      <div
+       className="video"
+      >
+        <ReactPlayer
+          class="img-fluid. max-width: 100%"
+
+         url={video} controls={true} 
+          height="20rem"
+         
+         />
       </div>
       <div>
        <p className ='body'>{data.body.replace(regex, '')}</p>
