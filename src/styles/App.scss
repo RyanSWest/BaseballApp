@@ -12,9 +12,11 @@ $secondary: #262d3d;
 
    display: flex;
    flex-direction: column;
-   width:25rem;
+   width:fit-content;
+   
    border:2px solid;
    margin-top:2rem;
+   
  }
  .game-1{
 

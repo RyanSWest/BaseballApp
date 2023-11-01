@@ -82,7 +82,7 @@ const GameDetails = () => {
           style={{ alignItems: "center" }}
         >
           <Image
-            class="img-fluid. max-width: 100%"
+            class="img-fluid max-width: 100%"
             src={pic}
             style={{ height: "20rem" }}
           />
