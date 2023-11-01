@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
  import '../styles/App.scss'
 import {Badge} from 'react-bootstrap';
  
-const TopPlayers = () => {
+const TopHomers = () => {
 const [players, setPlayers] = useState([]);
 const [year, setYear] = useState("2023");
 
@@ -29,9 +29,14 @@ const eraUrl =`https://bdfed.stitch.mlbinfra.com/bdfed/stats/player?stitch_env=p
   useEffect(() => {
     axios
       .get(
-        `https://bdfed.stitch.mlbinfra.com/bdfed/stats/player?stitch_env=prod&season=${year}&sportId=1&stats=season&group=hitting&gameType=R&limit=100&offset=0&sortStat=onBasePlusSlugging&order=desc`
+        `https://bdfed.stitch.mlbinfra.com/bdfed/stats/player?stitch_env=prod&season=${year}&sportId=1&stats=season&group=hitting&gameType=R&limit=100&offset=0&sortStat=homeRuns&order=desc`
       )
-      .then((res) => setPlayers(res.data.stats));
+      .then((res) => 
+    //   console.log('HR',res.data )
+      
+      setPlayers(res.data.stats)
+      
+      );
 
        
   }, [year]);
@@ -97,4 +102,4 @@ const eraUrl =`https://bdfed.stitch.mlbinfra.com/bdfed/stats/player?stitch_env=p
   );
 };
 
-export default TopPlayers;
+export default TopHomers;

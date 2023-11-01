@@ -155,12 +155,15 @@ const AllTimeAvg = () => {
         <h1>ALL TIME BATTING AVG</h1>
 
         </Badge>
-       {players.map((p, idx) => {
+       {players.map((p, idx, ) => {
         return (
-          <Col className="col-xs-4">
+          <Col className="col-xs-4"
+          key={p.id}
+          >
             <Card
              class="shadow-lg p-3 mb-5 bg-body rounded"
              className="d-flex justify-content-around"
+             key={p.id}
              style={{ width: "20rem", height: "18rem", marginTop:'1rem' }}>
              <Card.Header>
                     <Card.Title class="d-flex justify-content-center">

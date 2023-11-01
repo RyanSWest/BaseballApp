@@ -11,6 +11,7 @@ import News from './components/News'
 import Home from './components/Home'
 import Player from'./components/Player'
 import TopPlayers from './components/TopPlayers';
+import TopTabs from './components/TopTabs'
 import AllTime from './components/AllTime'
 import PlayerCard from './components/PlayerCard'
 import StickyNav from './components/Nav'
@@ -21,6 +22,7 @@ import Schedule from './components/Calendar'
 import Teams from './components/Teams';
 import GameDetails from './components/GameDetails';
 import GameTabs from './components/GameTabs';
+import AllTimeTabs from './components/AllTimeTabs';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import{Container,Navbar} from 'react-bootstrap'
@@ -132,10 +134,10 @@ teams.sort((a,b)=>{
    <Route exact path = '/' element ={<Home/>}/>
    <Route  path = '/news' element = {<News news = {news} getNews ={getNews}/>}/>
    <Route path ='/player/:id' element ={<PlayerCard/>}/>
-   <Route path = '/all-time' element ={<AllTime/>}/>
+   <Route path = '/all-time' element ={<AllTimeTabs/>}/>
    <Route path = '/all-time-avg' element ={<AllTimeAvg/>}/>
 
-   <Route path = '/leaders' element ={<TopPlayers/>}/>
+   <Route path = '/leaders' element ={<TopTabs/>}/>
 
    <Route path ='/roster/:id' element ={<TeamMembers/>} />
 
